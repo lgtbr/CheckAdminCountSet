@@ -1,6 +1,6 @@
 [
 	{
-      		"$domainAdminGroupName"	: "Administrator group name",
+      		"domainAdminGroupName"	: "Administrator group name",
 		"enableLogs"		: true,
 		"logsRetentionDays"	: 30
 	},
