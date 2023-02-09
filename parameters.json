@@ -1,18 +1,18 @@
 [
 	{
-      		"domainAdminGroupName"	: "Administrator group name",
-		"logsRetentionDays"	: 30
+      		"domainAdminGroupName"	: "", // Administrator group name
+		"logsRetentionDays"	: 0
 	},
 	{
       		"sendingMethod"	: "MailSMTPCredentials",
       		"parameters"	: {
-			"authUsername"	: "Username used for SMTP authentication",
-			"authPassword"	: "Password used for SMTP authentication",
-			"smtpServer"	: "SMTP server",
-			"port"		: 465,
-		    	"useSSL"	: true,
-			"from"		: "Mail address used to send the mail",
-			"to"		: "Mail adress(es) that need(s) to receive mails"
+			"authUsername"	: "", 		// Username used for SMTP authentication
+			"authPassword"	: "", 		// Password used for SMTP authentication
+			"smtpServer"	: "", 		// SMTP server
+			"port"		: 0, 		// SMTP server port
+		    	"useSSL"	: false,	// Use SSL or not 
+			"from"		: "",		// Mail address used to send the mail
+			"to"		: ""		// Mail adress(es) that need(s) to receive mails
 		}
 	},
     	{
