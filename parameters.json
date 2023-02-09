@@ -1,38 +1,38 @@
 [
 	{
-      		"domainAdminGroupName"	: "", // Administrator group name
+      		"domainAdminGroupName"	: "",
 		"logsRetentionDays"	: 0
 	},
 	{
       		"sendingMethod"	: "MailSMTPCredentials",
       		"parameters"	: {
-			"authUsername"	: "", 		// Username used for SMTP authentication
-			"authPassword"	: "", 		// Password used for SMTP authentication
-			"smtpServer"	: "", 		// SMTP server
-			"port"		: 0, 		// SMTP server port
-		    	"useSSL"	: false,	// Use SSL or not 
-			"from"		: "",		// Mail address used to send the mail
-			"to"		: ""		// Mail adress(es) that need(s) to receive mails
+			"authUsername"	: "",
+			"authPassword"	: "",
+			"smtpServer"	: "",
+			"port"		: 0,
+		    	"useSSL"	: false,
+			"from"		: "",
+			"to"		: ""
 		}
 	},
     	{
       		"sendingMethod"	: "DirectMailOffice365",
       		"parameters"	: {
-			"smtpServer"	: "SMTP server",
-			"port"		: 465,
-		    	"useSSL"	: true,
-			"from"		: "Mail address used to send the mail",
-			"to"		: "Mail adress(es) that need(s) to receive mails"
+			"smtpServer"	: "",
+			"port"		: 0,
+		    	"useSSL"	: false,
+			"from"		: "",
+			"to"		: ""
       		}
     	},
     	{
       		"sendingMethod"	: "MailMicrosoftGraph",
       		"parameters"	: {
-			"clientID"	: "The ID of your Azure App Registrations",
-			"clientsecret"	: "The value of your client secret in your Azure App Registrations",
-		    	"tenantID"	: "The ID of your Azure tenant",
-			"from"		: "Mail address used to send the mail",
-			"to"		: "Mail adress(es) that need(s) to receive mails"
+			"clientID"	: "",
+			"clientsecret"	: "",
+		    	"tenantID"	: "",
+			"from"		: "",
+			"to"		: ""
       		}
     	}
 ]
