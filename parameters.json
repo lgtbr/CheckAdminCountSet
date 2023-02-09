@@ -1,5 +1,10 @@
 [
 	{
+      		"$domainAdminGroupName"	: "Administrator group name",
+		"enableLogs"		: true,
+		"logsRetentionDays"	: 30
+	},
+	{
       		"sendingMethod"	: "MailSMTPCredentials",
       		"parameters"	: {
 			"authUsername"	: "Username used for SMTP authentication",
