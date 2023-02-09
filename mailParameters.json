@@ -15,7 +15,7 @@
       		"sendingMethod"	: "DirectMailOffice365",
       		"parameters"	: {
 			"smtpServer"	: "SMTP server",
-			"port"		: 25,
+			"port"		: 465,
 		    	"useSSL"	: true,
 			"from"		: "Mail address used to send the mail",
 			"to"		: "Mail adress(es) that need(s) to receive mails"
