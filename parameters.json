@@ -1,38 +1,37 @@
-[
-	{
-      		"domainAdminGroupName"	: "",
-		"logsRetentionDays"	: 0
-	},
-	{
-      		"sendingMethod"	: "MailSMTPCredentials",
-      		"parameters"	: {
-			"authUsername"	: "",
-			"authPassword"	: "",
-			"smtpServer"	: "",
-			"port"		: 0,
-		    	"useSSL"	: false,
-			"from"		: "",
-			"to"		: ""
-		}
-	},
-    	{
-      		"sendingMethod"	: "DirectMailOffice365",
-      		"parameters"	: {
-			"smtpServer"	: "",
-			"port"		: 0,
-		    	"useSSL"	: false,
-			"from"		: "",
-			"to"		: ""
-      		}
-    	},
-    	{
-      		"sendingMethod"	: "MailMicrosoftGraph",
-      		"parameters"	: {
-			"clientID"	: "",
-			"clientsecret"	: "",
-		    	"tenantID"	: "",
-			"from"		: "",
-			"to"		: ""
-      		}
-    	}
-]
+{
+    "domainAdminGroupName":  "",
+	"initialized":  0,
+    "logsRetentionDays":  30,
+    "MailSMTPCredentials":  [
+                                {
+                                    "enable":  false,
+                                    "authUsername":  "",
+                                    "authPassword":  "",
+                                    "smtpServer":  "",
+                                    "port":  0,
+                                    "useSSL":  false,
+                                    "from":  "",
+                                    "to":  ""
+                                }
+                            ],
+    "DirectMailOffice365":  [
+                                {
+                                    "enable":  false,
+                                    "smtpServer":  "",
+                                    "port":  0,
+                                    "useSSL":  false,
+                                    "from":  "",
+                                    "to":  ""
+                                }
+                            ],
+    "MailMicrosoftGraph":  [
+                               {
+                                   "enable":  false,
+                                   "clientID":  "",
+                                   "clientsecret":  "",
+                                   "tenantID":  "",
+                                   "from":  "",
+                                   "to":  ""
+                               }
+                           ]
+}
