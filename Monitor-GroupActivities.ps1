@@ -1,17 +1,5 @@
 ###############################################################################################
 #                                                                                             #
-# DESCRIPTION                                                                                 #
-#                                                                                             #
-# Ce script permet la sauvegarde de la configration d'un FortiSwitch (ou d'un autre           #
-# équipement permettant la connexion en SSH puis l'export via TFTP).                          #
-#                                                                                             #
-# Il fonctionne uniquement pour un équipement. Pour l'utiliser sur plusieurs équipements, il  #
-# faut faire une copie de ce fichier puis le reconfigurer pour l'équipement en question.      #
-#                                                                                             #
-###############################################################################################
-
-###############################################################################################
-#                                                                                             #
 # 0 - FUNCTIONS                                                                               #
 #                                                                                             #
 ###############################################################################################
