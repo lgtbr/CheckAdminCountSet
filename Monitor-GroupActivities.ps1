@@ -200,7 +200,7 @@ function Send-MailMicrosoftGraph {
 
 ###############################################################################################
 #                                                                                             #
-# 0 - VARIABLES                                                                               #
+# 1 - VARIABLES                                                                               #
 #                                                                                             #
 ###############################################################################################
 
@@ -262,7 +262,7 @@ $mailMicrosoftGraphTo            = $parametersJSON.MailMicrosoftGraph.to
 
 ###############################################################################################
 #                                                                                             #
-# 3 - CREATE TEMPORARY FILE WITH ALL USERS ADMINCOUNTSET SET TO 1 AND COMPARE WITH ACTUAL LIST#
+# 2 - CREATE TEMPORARY FILE WITH ALL USERS ADMINCOUNTSET SET TO 1 AND COMPARE WITH ACTUAL LIST#
 #                                                                                             #
 ###############################################################################################
 
@@ -300,7 +300,7 @@ $changeHistory = $historyFile | Where { [datetime]::ParseExact($_.Date, "MM/dd/y
 
 ###############################################################################################
 #                                                                                             #
-# 4 - HTML body                                                                               #
+# 3 - HTML body                                                                               #
 #                                                                                             #
 ###############################################################################################
 
